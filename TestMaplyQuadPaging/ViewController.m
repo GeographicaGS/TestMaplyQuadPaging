@@ -73,19 +73,10 @@
     
     
     // Let's create the MaplyPaging Layer
-    
-    QuadLayer* quadlayer;
-
-    quadlayer = [[QuadLayer  alloc] init];
-    //layer.numSimultaneousFetches = 2;
-    quadlayer.singleLevelLoading = YES;
-    
+    QuadLayer* quadlayer = [[QuadLayer  alloc] init];
     MaplyCoordinateSystem * srs = [[MaplySphericalMercator alloc] initWebStandard];
     QuadTileSource *tilesource = [[QuadTileSource alloc] init];
-    
     [quadlayer initWithCoordSystem:srs delegate:tilesource];
-
-    
     [theViewC addLayer:quadlayer];
     
 }
