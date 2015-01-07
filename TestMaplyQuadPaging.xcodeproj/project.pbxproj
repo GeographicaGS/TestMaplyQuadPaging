@@ -495,6 +495,7 @@
 				0EEEE9E51A5D4F68004B38A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EEEE9E61A5D4F68004B38A8 /* Build configuration list for PBXNativeTarget "TestMaplyQuadPagingTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +504,7 @@
 				0EEEE9E81A5D4F68004B38A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
