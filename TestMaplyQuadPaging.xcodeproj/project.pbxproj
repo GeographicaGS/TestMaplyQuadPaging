@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EEEE9C61A5D4F68004B38A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEE9C51A5D4F68004B38A8 /* main.m */; };
+		0EEEE9C91A5D4F68004B38A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEE9C81A5D4F68004B38A8 /* AppDelegate.m */; };
+		0EEEE9CC1A5D4F68004B38A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEE9CB1A5D4F68004B38A8 /* ViewController.m */; };
+		0EEEE9CF1A5D4F68004B38A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEE9CD1A5D4F68004B38A8 /* Main.storyboard */; };
+		0EEEE9D11A5D4F68004B38A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEE9D01A5D4F68004B38A8 /* Images.xcassets */; };
+		0EEEE9D41A5D4F68004B38A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEE9D21A5D4F68004B38A8 /* LaunchScreen.xib */; };
+		0EEEE9E01A5D4F68004B38A8 /* TestMaplyQuadPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEE9DF1A5D4F68004B38A8 /* TestMaplyQuadPagingTests.m */; };
+		0EEEE9EA1A5D4FC2004B38A8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9E91A5D4FC2004B38A8 /* CoreFoundation.framework */; };
+		0EEEE9EC1A5D4FC7004B38A8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9EB1A5D4FC7004B38A8 /* libsqlite3.dylib */; };
+		0EEEE9EE1A5D4FCC004B38A8 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9ED1A5D4FCC004B38A8 /* libc++.dylib */; };
+		0EEEE9F01A5D4FFC004B38A8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9EF1A5D4FFC004B38A8 /* libz.dylib */; };
+		0EEEE9F21A5D5006004B38A8 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9F11A5D5006004B38A8 /* libxml2.dylib */; };
+		0EEEE9FD1A5D50F8004B38A8 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9FC1A5D50F6004B38A8 /* libWhirlyGlobe-MaplyComponent.a */; };
+		0EEEE9FF1A5D52E9004B38A8 /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEE9FE1A5D52E9004B38A8 /* geography-class_medres.mbtiles */; };
+		0EEEEA041A5D55DC004B38A8 /* QuadLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEEA031A5D55DC004B38A8 /* QuadLayer.m */; };
+		0EEEEA071A5D5692004B38A8 /* QuadLayerTileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEEA061A5D5692004B38A8 /* QuadLayerTileSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EEEE9DA1A5D4F68004B38A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEEE9B81A5D4F68004B38A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEEE9BF1A5D4F68004B38A8;
+			remoteInfo = TestMaplyQuadPaging;
+		};
+		0EEEE9FB1A5D50F6004B38A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B11E0DB15B4C030007AAE3F;
+			remoteInfo = "WhirlyGlobe-MaplyComponent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EEEE9C01A5D4F68004B38A8 /* TestMaplyQuadPaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMaplyQuadPaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEEE9C41A5D4F68004B38A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEEE9C51A5D4F68004B38A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EEEE9C71A5D4F68004B38A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EEEE9C81A5D4F68004B38A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EEEE9CA1A5D4F68004B38A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EEEE9CB1A5D4F68004B38A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EEEE9CE1A5D4F68004B38A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EEEE9D01A5D4F68004B38A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0EEEE9D31A5D4F68004B38A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0EEEE9D91A5D4F68004B38A8 /* TestMaplyQuadPagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMaplyQuadPagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEEE9DE1A5D4F68004B38A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEEE9DF1A5D4F68004B38A8 /* TestMaplyQuadPagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMaplyQuadPagingTests.m; sourceTree = "<group>"; };
+		0EEEE9E91A5D4FC2004B38A8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0EEEE9EB1A5D4FC7004B38A8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0EEEE9ED1A5D4FCC004B38A8 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0EEEE9EF1A5D4FFC004B38A8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0EEEE9F11A5D5006004B38A8 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "WhirlyGlobe-MaplyComponent.xcodeproj"; path = "libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent.xcodeproj"; sourceTree = "<group>"; };
+		0EEEE9FE1A5D52E9004B38A8 /* geography-class_medres.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = "geography-class_medres.mbtiles"; path = "libs/WhirlyGlobeMaply/resources/base_maps/geography-class_medres.mbtiles"; sourceTree = "<group>"; };
+		0EEEEA021A5D558D004B38A8 /* QuadLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadLayer.h; sourceTree = "<group>"; };
+		0EEEEA031A5D55DC004B38A8 /* QuadLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadLayer.m; sourceTree = "<group>"; };
+		0EEEEA051A5D5681004B38A8 /* QuadLayerTileSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadLayerTileSource.h; sourceTree = "<group>"; };
+		0EEEEA061A5D5692004B38A8 /* QuadLayerTileSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadLayerTileSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEEE9BD1A5D4F68004B38A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEEE9FD1A5D50F8004B38A8 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */,
+				0EEEE9F21A5D5006004B38A8 /* libxml2.dylib in Frameworks */,
+				0EEEE9F01A5D4FFC004B38A8 /* libz.dylib in Frameworks */,
+				0EEEE9EE1A5D4FCC004B38A8 /* libc++.dylib in Frameworks */,
+				0EEEE9EC1A5D4FC7004B38A8 /* libsqlite3.dylib in Frameworks */,
+				0EEEE9EA1A5D4FC2004B38A8 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEEE9D61A5D4F68004B38A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEEE9B71A5D4F68004B38A8 = {
+			isa = PBXGroup;
+			children = (
+				0EEEE9FE1A5D52E9004B38A8 /* geography-class_medres.mbtiles */,
+				0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */,
+				0EEEE9F11A5D5006004B38A8 /* libxml2.dylib */,
+				0EEEE9EF1A5D4FFC004B38A8 /* libz.dylib */,
+				0EEEE9ED1A5D4FCC004B38A8 /* libc++.dylib */,
+				0EEEE9EB1A5D4FC7004B38A8 /* libsqlite3.dylib */,
+				0EEEE9E91A5D4FC2004B38A8 /* CoreFoundation.framework */,
+				0EEEE9C21A5D4F68004B38A8 /* TestMaplyQuadPaging */,
+				0EEEE9DC1A5D4F68004B38A8 /* TestMaplyQuadPagingTests */,
+				0EEEE9C11A5D4F68004B38A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EEEE9C11A5D4F68004B38A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEE9C01A5D4F68004B38A8 /* TestMaplyQuadPaging.app */,
+				0EEEE9D91A5D4F68004B38A8 /* TestMaplyQuadPagingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EEEE9C21A5D4F68004B38A8 /* TestMaplyQuadPaging */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEE9C71A5D4F68004B38A8 /* AppDelegate.h */,
+				0EEEE9C81A5D4F68004B38A8 /* AppDelegate.m */,
+				0EEEE9CA1A5D4F68004B38A8 /* ViewController.h */,
+				0EEEE9CB1A5D4F68004B38A8 /* ViewController.m */,
+				0EEEEA021A5D558D004B38A8 /* QuadLayer.h */,
+				0EEEE9CD1A5D4F68004B38A8 /* Main.storyboard */,
+				0EEEE9D01A5D4F68004B38A8 /* Images.xcassets */,
+				0EEEE9D21A5D4F68004B38A8 /* LaunchScreen.xib */,
+				0EEEE9C31A5D4F68004B38A8 /* Supporting Files */,
+				0EEEEA031A5D55DC004B38A8 /* QuadLayer.m */,
+				0EEEEA051A5D5681004B38A8 /* QuadLayerTileSource.h */,
+				0EEEEA061A5D5692004B38A8 /* QuadLayerTileSource.m */,
+			);
+			path = TestMaplyQuadPaging;
+			sourceTree = "<group>";
+		};
+		0EEEE9C31A5D4F68004B38A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEE9C41A5D4F68004B38A8 /* Info.plist */,
+				0EEEE9C51A5D4F68004B38A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EEEE9DC1A5D4F68004B38A8 /* TestMaplyQuadPagingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEE9DF1A5D4F68004B38A8 /* TestMaplyQuadPagingTests.m */,
+				0EEEE9DD1A5D4F68004B38A8 /* Supporting Files */,
+			);
+			path = TestMaplyQuadPagingTests;
+			sourceTree = "<group>";
+		};
+		0EEEE9DD1A5D4F68004B38A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEE9DE1A5D4F68004B38A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EEEE9F71A5D50F5004B38A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEE9FC1A5D50F6004B38A8 /* libWhirlyGlobe-MaplyComponent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EEEE9BF1A5D4F68004B38A8 /* TestMaplyQuadPaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEEE9E31A5D4F68004B38A8 /* Build configuration list for PBXNativeTarget "TestMaplyQuadPaging" */;
+			buildPhases = (
+				0EEEE9BC1A5D4F68004B38A8 /* Sources */,
+				0EEEE9BD1A5D4F68004B38A8 /* Frameworks */,
+				0EEEE9BE1A5D4F68004B38A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMaplyQuadPaging;
+			productName = TestMaplyQuadPaging;
+			productReference = 0EEEE9C01A5D4F68004B38A8 /* TestMaplyQuadPaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EEEE9D81A5D4F68004B38A8 /* TestMaplyQuadPagingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEEE9E61A5D4F68004B38A8 /* Build configuration list for PBXNativeTarget "TestMaplyQuadPagingTests" */;
+			buildPhases = (
+				0EEEE9D51A5D4F68004B38A8 /* Sources */,
+				0EEEE9D61A5D4F68004B38A8 /* Frameworks */,
+				0EEEE9D71A5D4F68004B38A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EEEE9DB1A5D4F68004B38A8 /* PBXTargetDependency */,
+			);
+			name = TestMaplyQuadPagingTests;
+			productName = TestMaplyQuadPagingTests;
+			productReference = 0EEEE9D91A5D4F68004B38A8 /* TestMaplyQuadPagingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EEEE9B81A5D4F68004B38A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Geographica;
+				TargetAttributes = {
+					0EEEE9BF1A5D4F68004B38A8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0EEEE9D81A5D4F68004B38A8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0EEEE9BF1A5D4F68004B38A8;
+					};
+				};
+			};
+			buildConfigurationList = 0EEEE9BB1A5D4F68004B38A8 /* Build configuration list for PBXProject "TestMaplyQuadPaging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EEEE9B71A5D4F68004B38A8;
+			productRefGroup = 0EEEE9C11A5D4F68004B38A8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0EEEE9F71A5D50F5004B38A8 /* Products */;
+					ProjectRef = 0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0EEEE9BF1A5D4F68004B38A8 /* TestMaplyQuadPaging */,
+				0EEEE9D81A5D4F68004B38A8 /* TestMaplyQuadPagingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0EEEE9FC1A5D50F6004B38A8 /* libWhirlyGlobe-MaplyComponent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libWhirlyGlobe-MaplyComponent.a";
+			remoteRef = 0EEEE9FB1A5D50F6004B38A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EEEE9BE1A5D4F68004B38A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEEE9FF1A5D52E9004B38A8 /* geography-class_medres.mbtiles in Resources */,
+				0EEEE9CF1A5D4F68004B38A8 /* Main.storyboard in Resources */,
+				0EEEE9D41A5D4F68004B38A8 /* LaunchScreen.xib in Resources */,
+				0EEEE9D11A5D4F68004B38A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEEE9D71A5D4F68004B38A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEEE9BC1A5D4F68004B38A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEEE9CC1A5D4F68004B38A8 /* ViewController.m in Sources */,
+				0EEEE9C91A5D4F68004B38A8 /* AppDelegate.m in Sources */,
+				0EEEEA041A5D55DC004B38A8 /* QuadLayer.m in Sources */,
+				0EEEEA071A5D5692004B38A8 /* QuadLayerTileSource.m in Sources */,
+				0EEEE9C61A5D4F68004B38A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEEE9D51A5D4F68004B38A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEEE9E01A5D4F68004B38A8 /* TestMaplyQuadPagingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EEEE9DB1A5D4F68004B38A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EEEE9BF1A5D4F68004B38A8 /* TestMaplyQuadPaging */;
+			targetProxy = 0EEEE9DA1A5D4F68004B38A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EEEE9CD1A5D4F68004B38A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEEE9CE1A5D4F68004B38A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EEEE9D21A5D4F68004B38A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEEE9D31A5D4F68004B38A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EEEE9E11A5D4F68004B38A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EEEE9E21A5D4F68004B38A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EEEE9E41A5D4F68004B38A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/",
+				);
+				INFOPLIST_FILE = TestMaplyQuadPaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0EEEE9E51A5D4F68004B38A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/",
+				);
+				INFOPLIST_FILE = TestMaplyQuadPaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0EEEE9E71A5D4F68004B38A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestMaplyQuadPagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMaplyQuadPaging.app/TestMaplyQuadPaging";
+			};
+			name = Debug;
+		};
+		0EEEE9E81A5D4F68004B38A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestMaplyQuadPagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMaplyQuadPaging.app/TestMaplyQuadPaging";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEEE9BB1A5D4F68004B38A8 /* Build configuration list for PBXProject "TestMaplyQuadPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEEE9E11A5D4F68004B38A8 /* Debug */,
+				0EEEE9E21A5D4F68004B38A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEEE9E31A5D4F68004B38A8 /* Build configuration list for PBXNativeTarget "TestMaplyQuadPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEEE9E41A5D4F68004B38A8 /* Debug */,
+				0EEEE9E51A5D4F68004B38A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EEEE9E61A5D4F68004B38A8 /* Build configuration list for PBXNativeTarget "TestMaplyQuadPagingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEEE9E71A5D4F68004B38A8 /* Debug */,
+				0EEEE9E81A5D4F68004B38A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EEEE9B81A5D4F68004B38A8 /* Project object */;
+}
