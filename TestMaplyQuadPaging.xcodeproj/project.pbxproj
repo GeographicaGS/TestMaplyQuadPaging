@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E7D3C571B298C91006FBADB /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 0E7D3C561B298C91006FBADB /* geography-class_medres.mbtiles */; };
+		0EEB339B1B29A2B500A75FE5 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEB339A1B29A2AE00A75FE5 /* libWhirlyGlobe-MaplyComponent.a */; };
 		0EEEE9C61A5D4F68004B38A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEE9C51A5D4F68004B38A8 /* main.m */; };
 		0EEEE9C91A5D4F68004B38A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEE9C81A5D4F68004B38A8 /* AppDelegate.m */; };
 		0EEEE9CC1A5D4F68004B38A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEE9CB1A5D4F68004B38A8 /* ViewController.m */; };
@@ -19,13 +21,18 @@
 		0EEEE9EE1A5D4FCC004B38A8 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9ED1A5D4FCC004B38A8 /* libc++.dylib */; };
 		0EEEE9F01A5D4FFC004B38A8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9EF1A5D4FFC004B38A8 /* libz.dylib */; };
 		0EEEE9F21A5D5006004B38A8 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9F11A5D5006004B38A8 /* libxml2.dylib */; };
-		0EEEE9FD1A5D50F8004B38A8 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEE9FC1A5D50F6004B38A8 /* libWhirlyGlobe-MaplyComponent.a */; };
-		0EEEE9FF1A5D52E9004B38A8 /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEE9FE1A5D52E9004B38A8 /* geography-class_medres.mbtiles */; };
 		0EEEEA041A5D55DC004B38A8 /* QuadLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEEA031A5D55DC004B38A8 /* QuadLayer.m */; };
 		0EEEEA071A5D5692004B38A8 /* QuadLayerTileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEEA061A5D5692004B38A8 /* QuadLayerTileSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0EEB33991B29A2AE00A75FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEB33941B29A2AE00A75FE5 /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B11E0DB15B4C030007AAE3F;
+			remoteInfo = "WhirlyGlobe-MaplyComponent";
+		};
 		0EEEE9DA1A5D4F68004B38A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0EEEE9B81A5D4F68004B38A8 /* Project object */;
@@ -33,16 +40,11 @@
 			remoteGlobalIDString = 0EEEE9BF1A5D4F68004B38A8;
 			remoteInfo = TestMaplyQuadPaging;
 		};
-		0EEEE9FB1A5D50F6004B38A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2B11E0DB15B4C030007AAE3F;
-			remoteInfo = "WhirlyGlobe-MaplyComponent";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E7D3C561B298C91006FBADB /* geography-class_medres.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = "geography-class_medres.mbtiles"; path = "TestMaplyQuadPaging/geography-class_medres.mbtiles"; sourceTree = "<group>"; };
+		0EEB33941B29A2AE00A75FE5 /* WhirlyGlobe-MaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "WhirlyGlobe-MaplyComponent.xcodeproj"; path = "libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent.xcodeproj"; sourceTree = "<group>"; };
 		0EEEE9C01A5D4F68004B38A8 /* TestMaplyQuadPaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMaplyQuadPaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEEE9C41A5D4F68004B38A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EEEE9C51A5D4F68004B38A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,8 +63,6 @@
 		0EEEE9ED1A5D4FCC004B38A8 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		0EEEE9EF1A5D4FFC004B38A8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		0EEEE9F11A5D5006004B38A8 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "WhirlyGlobe-MaplyComponent.xcodeproj"; path = "libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent.xcodeproj"; sourceTree = "<group>"; };
-		0EEEE9FE1A5D52E9004B38A8 /* geography-class_medres.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; name = "geography-class_medres.mbtiles"; path = "libs/WhirlyGlobeMaply/resources/base_maps/geography-class_medres.mbtiles"; sourceTree = "<group>"; };
 		0EEEEA021A5D558D004B38A8 /* QuadLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadLayer.h; sourceTree = "<group>"; };
 		0EEEEA031A5D55DC004B38A8 /* QuadLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadLayer.m; sourceTree = "<group>"; };
 		0EEEEA051A5D5681004B38A8 /* QuadLayerTileSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadLayerTileSource.h; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EEEE9FD1A5D50F8004B38A8 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */,
+				0EEB339B1B29A2B500A75FE5 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */,
 				0EEEE9F21A5D5006004B38A8 /* libxml2.dylib in Frameworks */,
 				0EEEE9F01A5D4FFC004B38A8 /* libz.dylib in Frameworks */,
 				0EEEE9EE1A5D4FCC004B38A8 /* libc++.dylib in Frameworks */,
@@ -93,11 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EEB33951B29A2AE00A75FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB339A1B29A2AE00A75FE5 /* libWhirlyGlobe-MaplyComponent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0EEEE9B71A5D4F68004B38A8 = {
 			isa = PBXGroup;
 			children = (
-				0EEEE9FE1A5D52E9004B38A8 /* geography-class_medres.mbtiles */,
-				0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */,
+				0EEB33941B29A2AE00A75FE5 /* WhirlyGlobe-MaplyComponent.xcodeproj */,
+				0E7D3C561B298C91006FBADB /* geography-class_medres.mbtiles */,
 				0EEEE9F11A5D5006004B38A8 /* libxml2.dylib */,
 				0EEEE9EF1A5D4FFC004B38A8 /* libz.dylib */,
 				0EEEE9ED1A5D4FCC004B38A8 /* libc++.dylib */,
@@ -161,14 +169,6 @@
 				0EEEE9DE1A5D4F68004B38A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0EEEE9F71A5D50F5004B38A8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0EEEE9FC1A5D50F6004B38A8 /* libWhirlyGlobe-MaplyComponent.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +240,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 0EEEE9F71A5D50F5004B38A8 /* Products */;
-					ProjectRef = 0EEEE9F61A5D50F5004B38A8 /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+					ProductGroup = 0EEB33951B29A2AE00A75FE5 /* Products */;
+					ProjectRef = 0EEB33941B29A2AE00A75FE5 /* WhirlyGlobe-MaplyComponent.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -253,11 +253,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0EEEE9FC1A5D50F6004B38A8 /* libWhirlyGlobe-MaplyComponent.a */ = {
+		0EEB339A1B29A2AE00A75FE5 /* libWhirlyGlobe-MaplyComponent.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libWhirlyGlobe-MaplyComponent.a";
-			remoteRef = 0EEEE9FB1A5D50F6004B38A8 /* PBXContainerItemProxy */;
+			remoteRef = 0EEB33991B29A2AE00A75FE5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -267,7 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EEEE9FF1A5D52E9004B38A8 /* geography-class_medres.mbtiles in Resources */,
+				0E7D3C571B298C91006FBADB /* geography-class_medres.mbtiles in Resources */,
 				0EEEE9CF1A5D4F68004B38A8 /* Main.storyboard in Resources */,
 				0EEEE9D41A5D4F68004B38A8 /* LaunchScreen.xib in Resources */,
 				0EEEE9D11A5D4F68004B38A8 /* Images.xcassets in Resources */,
@@ -406,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -415,6 +416,7 @@
 		0EEEE9E41A5D4F68004B38A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,13 +425,16 @@
 				);
 				INFOPLIST_FILE = TestMaplyQuadPaging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		0EEEE9E51A5D4F68004B38A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,7 +443,9 @@
 				);
 				INFOPLIST_FILE = TestMaplyQuadPaging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

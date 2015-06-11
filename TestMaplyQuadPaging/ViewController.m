@@ -42,6 +42,7 @@
     
     // and thirty fps if we can get it ­ change this to 3 if you find your app is struggling
     theViewC.frameInterval = 2;
+    theViewC.keepNorthUp = YES;
     
     // set up the data source
     MaplyMBTileSource *tileSource =
@@ -63,7 +64,7 @@
     if (globeViewC != nil)
     {
         globeViewC.height = 0.8;
-        [globeViewC animateToPosition:MaplyCoordinateMakeWithDegrees(-122.4192,37.7793)
+        [globeViewC animateToPosition:MaplyCoordinateMakeWithDegrees(4,37)
                                  time:1.0];
     } else {
         mapViewC.height = 1.0;
