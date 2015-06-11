@@ -65,7 +65,7 @@
     {
         globeViewC.height = 0.8;
         [globeViewC animateToPosition:MaplyCoordinateMakeWithDegrees(4,37)
-                                 time:1.0];
+                                 time:0.0];
     } else {
         mapViewC.height = 1.0;
         [mapViewC animateToPosition:MaplyCoordinateMakeWithDegrees(-122.4192,37.7793)
